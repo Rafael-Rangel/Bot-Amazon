@@ -1,1 +1,1 @@
-web: playwright install chromium && gunicorn app:app
+web: PLAYWRIGHT_BROWSERS_PATH=0 playwright install chromium && gunicorn app:app
